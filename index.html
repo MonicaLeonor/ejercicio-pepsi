@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>landing page</title>
+</head>
+
+<body>
+
+    <section class="sec">
+        <header>
+            <a href="#"><img src="./img/logo.png" class="logo" alt="logo.png"></a>
+            <ul>
+                <li><a href="https://www.pepsi.com/">Home</a></li>
+                <li><a href="https://www.pepsi.com/#!products">Products</a></li>
+                <li><a href="https://www.pepsi.com/#!">Whats New</a></li>
+                <li><a href="https://p.pepsi.com/signup">Newsletter</a></li>
+                <li><a href="https://contact.pepsico.com/pepsi">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>Thats What<br><span>I like</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, voluptatibus. Quam recusandae enim
+                    nisi deleniti veniam? Excepturi dolorem itaque ab similique maxime corrupti praesentium molestias
+                    accusantium magnam. Cupiditate, tempora vero!</p>
+                <a href="#">View All Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="./img/pepsi001.png" class="pepsi" alt="pepsi001.png">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li><img src="./img/pepsi001.png" onclick="imgSlider('./img/pepsi001.png');changeBgColor('#0062be')" alt="pepsi001.png"></li>
+            <li><img src="./img/pepsi002.png" onclick="imgSlider('./img/pepsi002.png');changeBgColor('#e60c2c')" alt="pepsi002.png"></li>
+            <li><img src="./img/pepsi003.png" onclick="imgSlider('./img/pepsi003.png');changeBgColor('#1e1e1e')" alt="pepsi003.png"></li>
+        </ul>
+
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/PepsiCo/"><img src="./img/facebook.png" alt="facebook.png"></a></li>
+            <li><a href="https://twitter.com/pepsico"><img src="./img/twitter.png" alt="twitter.png"></a></li>
+            <li><a href="https://www.instagram.com/pepsico/?hl=es-la"><img src="./img/instagram.png" alt="instagram.png"></a></li>
+        </ul>
+
+    </section>
+
+    <script src="script.js"> </script>
+</body>
+
+</html>
